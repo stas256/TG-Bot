@@ -4,9 +4,9 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
 
 # https://api.kinopoisk.dev/v1/documentation
 # токен тг бота
-TOKEN = "6088384124:AAFSEEZB8e92GTpc1wRi1CpDJXL22YXPELw"
+TOKEN = ""
 # токен апи кинопоиска
-token = '7Z5EJVE-QGB49XN-PSEJ2X9-T3VWW83'
+token = ''
 
 def getInfoByID(_id):
     url = f"https://api.kinopoisk.dev/v1/movie/{_id}"
